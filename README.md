@@ -59,11 +59,12 @@ doc2hpo is a java spring mvc based webapp to parse clinical note and get the HPO
   cp ./public_mm_lite/lib/* ./doc2hpo/src/main/webapp/WEB-INF/lib
   cp ./public_mm_lite/config/* ./doc2hpo/properties
   #### 3. change config file (if necessary)
+  #### Important! Otherwise you will have a 404 error.
   cd ./doc2hpo/src/main/webapp/WEB-INF
   vi config.properties
   cd myproject
   cd ./doc2hpo/properties
-  # change metamaplite db path accordingly
+  # also change metamaplite db path accordingly
   vi metamaplite.properties
   ```
   ### Step 3: Deploy of Doc2Hpo

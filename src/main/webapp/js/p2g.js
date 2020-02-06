@@ -21,10 +21,10 @@ function p2g() {
 			});
 	$
 			.ajax({
-				headers : {
-					'Accept' : 'application/json',
-					'Content-Type' : 'application/json'
-				},
+				// headers : {
+				// 	'Accept' : 'application/json',
+				// 	'Content-Type' : 'application/json'
+				// },
 				type : 'GET',
 				url : "http://phen2gene.wglab.org/api",
 				data : {'HPO_list': copyString},
